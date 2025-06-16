@@ -11,3 +11,15 @@ if playing.lower() == "no":
 else:
     print("Welcome to the game!!")
 
+while True:
+    user_input=input("Type Rock/Paper/Scissor or Q to exit")
+    if user_input.lower()=='Q':
+        print("Quiting the game.")
+        break
+    if user_input not in choice:
+        print("There is no such options.")
+        continue
+    
+
+   
+
